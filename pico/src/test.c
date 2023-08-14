@@ -12,7 +12,6 @@ void gpio_callback(uint gpio, uint32_t events)
 	else gpio_put(1, 0);
 
 	flip = !flip;
-	
 }
 
 int main() {
