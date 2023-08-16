@@ -124,8 +124,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "CMakeFiles/MorsePCB.dir/src/test.c.obj"
-  "CMakeFiles/MorsePCB.dir/src/test.c.obj.d"
+  "CMakeFiles/MorsePCB.dir/src/main.c.obj"
+  "CMakeFiles/MorsePCB.dir/src/main.c.obj.d"
   "MorsePCB.elf"
   "MorsePCB.pdb"
 )

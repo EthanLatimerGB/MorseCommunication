@@ -27,7 +27,7 @@ pico_sdk_init()
 # All src files
 
 add_executable(${PROJECT_NAME}
-	src/test.c
+	src/main.c
 	)
 
 pico_add_extra_outputs(${PROJECT_NAME})

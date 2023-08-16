@@ -175,7 +175,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ethanlatimer/Dev/Projects/Morse/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/home/ethanlatimer/Dev/Projects/Morse/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/ethanlatimer/Dev/Projects/Morse/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "/home/ethanlatimer/Dev/Projects/Morse/pico/src/test.c" "CMakeFiles/MorsePCB.dir/src/test.c.obj" "gcc" "CMakeFiles/MorsePCB.dir/src/test.c.obj.d"
+  "/home/ethanlatimer/Dev/Projects/Morse/pico/src/main.c" "CMakeFiles/MorsePCB.dir/src/main.c.obj" "gcc" "CMakeFiles/MorsePCB.dir/src/main.c.obj.d"
   "/home/ethanlatimer/Dev/Projects/Morse/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

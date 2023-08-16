@@ -1,5 +1,5 @@
-CMakeFiles/MorsePCB.dir/src/test.c.obj: \
- /home/ethanlatimer/Dev/Projects/Morse/pico/src/test.c \
+CMakeFiles/MorsePCB.dir/src/main.c.obj: \
+ /home/ethanlatimer/Dev/Projects/Morse/pico/src/main.c \
  /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \
  /usr/arm-none-eabi/include/_newlib_version.h \

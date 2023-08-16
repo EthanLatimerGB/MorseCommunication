@@ -1663,29 +1663,29 @@ pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-src/test.obj: src/test.c.obj
-.PHONY : src/test.obj
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-src/test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/src/test.c.obj
-.PHONY : src/test.c.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-src/test.i: src/test.c.i
-.PHONY : src/test.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/src/test.c.i
-.PHONY : src/test.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/test.s: src/test.c.s
-.PHONY : src/test.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/src/test.c.s
-.PHONY : src/test.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MorsePCB.dir/build.make CMakeFiles/MorsePCB.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -1884,9 +1884,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... src/test.obj"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... src/main.obj"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -69,19 +69,19 @@ include CMakeFiles/MorsePCB.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MorsePCB.dir/flags.make
 
-CMakeFiles/MorsePCB.dir/src/test.c.obj: CMakeFiles/MorsePCB.dir/flags.make
-CMakeFiles/MorsePCB.dir/src/test.c.obj: /home/ethanlatimer/Dev/Projects/Morse/pico/src/test.c
-CMakeFiles/MorsePCB.dir/src/test.c.obj: CMakeFiles/MorsePCB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ethanlatimer/Dev/Projects/Morse/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MorsePCB.dir/src/test.c.obj"
-	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MorsePCB.dir/src/test.c.obj -MF CMakeFiles/MorsePCB.dir/src/test.c.obj.d -o CMakeFiles/MorsePCB.dir/src/test.c.obj -c /home/ethanlatimer/Dev/Projects/Morse/pico/src/test.c
+CMakeFiles/MorsePCB.dir/src/main.c.obj: CMakeFiles/MorsePCB.dir/flags.make
+CMakeFiles/MorsePCB.dir/src/main.c.obj: /home/ethanlatimer/Dev/Projects/Morse/pico/src/main.c
+CMakeFiles/MorsePCB.dir/src/main.c.obj: CMakeFiles/MorsePCB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ethanlatimer/Dev/Projects/Morse/pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MorsePCB.dir/src/main.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MorsePCB.dir/src/main.c.obj -MF CMakeFiles/MorsePCB.dir/src/main.c.obj.d -o CMakeFiles/MorsePCB.dir/src/main.c.obj -c /home/ethanlatimer/Dev/Projects/Morse/pico/src/main.c
 
-CMakeFiles/MorsePCB.dir/src/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MorsePCB.dir/src/test.c.i"
-	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ethanlatimer/Dev/Projects/Morse/pico/src/test.c > CMakeFiles/MorsePCB.dir/src/test.c.i
+CMakeFiles/MorsePCB.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MorsePCB.dir/src/main.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ethanlatimer/Dev/Projects/Morse/pico/src/main.c > CMakeFiles/MorsePCB.dir/src/main.c.i
 
-CMakeFiles/MorsePCB.dir/src/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MorsePCB.dir/src/test.c.s"
-	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ethanlatimer/Dev/Projects/Morse/pico/src/test.c -o CMakeFiles/MorsePCB.dir/src/test.c.s
+CMakeFiles/MorsePCB.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MorsePCB.dir/src/main.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ethanlatimer/Dev/Projects/Morse/pico/src/main.c -o CMakeFiles/MorsePCB.dir/src/main.c.s
 
 CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/MorsePCB.dir/flags.make
 CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/ethanlatimer/Dev/Projects/Morse/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -1026,7 +1026,7 @@ CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # Object files for target MorsePCB
 MorsePCB_OBJECTS = \
-"CMakeFiles/MorsePCB.dir/src/test.c.obj" \
+"CMakeFiles/MorsePCB.dir/src/main.c.obj" \
 "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1099,7 +1099,7 @@ MorsePCB_OBJECTS = \
 # External object files for target MorsePCB
 MorsePCB_EXTERNAL_OBJECTS =
 
-MorsePCB.elf: CMakeFiles/MorsePCB.dir/src/test.c.obj
+MorsePCB.elf: CMakeFiles/MorsePCB.dir/src/main.c.obj
 MorsePCB.elf: CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 MorsePCB.elf: CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 MorsePCB.elf: CMakeFiles/MorsePCB.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
