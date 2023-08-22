@@ -1,0 +1,6 @@
+data/el.github.morsedesktop.desktop.in
+data/el.github.morsedesktop.appdata.xml.in
+data/el.github.morsedesktop.gschema.xml
+src/main.c
+src/morse-desktop-window.c
+src/morse-desktop-window.ui
