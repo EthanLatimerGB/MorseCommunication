@@ -28,7 +28,6 @@ struct _MorseDesktopWindow
 
 	/* Template widgets */
 	GtkHeaderBar        *header_bar;
-	GtkLabel            *label;
 };
 
 G_DEFINE_FINAL_TYPE (MorseDesktopWindow, morse_desktop_window, ADW_TYPE_APPLICATION_WINDOW)
@@ -40,7 +39,7 @@ morse_desktop_window_class_init (MorseDesktopWindowClass *klass)
 
 	gtk_widget_class_set_template_from_resource (widget_class, "/el/github/morsedesktop/morse-desktop-window.ui");
 	gtk_widget_class_bind_template_child (widget_class, MorseDesktopWindow, header_bar);
-	gtk_widget_class_bind_template_child (widget_class, MorseDesktopWindow, label);
+
 }
 
 static void
